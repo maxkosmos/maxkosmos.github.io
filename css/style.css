@@ -1,0 +1,53 @@
+body {background-color:#86a6bb;}
+
+#mysite{width:900px;background-color:#86a6bb; margin: 0 auto; height: 200px;}
+#shapka{width:900px;height:350px; 
+	background-image:url('http://www.fainaidea.com/wp-content/uploads/2017/11/maxresdefault-3.jpg');}
+#menu{width:900px; height:48px;background-color:#eee;}
+#content {width:900px;    background-color: #f1f16d;
+    height: auto;}
+#footer{width:900px;background-color:#eee;    height: 100px;}
+#menu h1 { color: #faf9f7; font-family:font-size:54px 'Alegreya', serif;font-size:74px; text-shadow:1px 1px 1px #000;
+  text-align: center; letter-spacing;}
+  h1 {color: #cc0000; font-family:font-size: 'Alegreya', serif;font-size:30px; text-shadow:1px 1px 1px #000; text-transform: uppercase;
+  text-align: center; letter-spacing;}
+
+img{    width: 350px;}
+#content p{color:#cc0000;  text-align:justify; font-size:20px; padding-left:15px; padding-right: 15px;}
+ul {
+  list-style: none; 
+  margin: 0px; 
+  padding-left: 0;
+  padding: 15px;
+  background: #cc0000;
+  text-align: center;
+}
+a {text-decoration: none; 
+   font-family: 'arial';
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #143814;
+  padding: 1em;
+  background: #daebb7;
+  border-right: 1px solid #cc0000;
+  color: #802929;
+}
+li {display: inline;}
+a:hover {background: #86a6bb;}
+
+#toTop {
+width:100px;
+border:1px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+font-size:11px;
+}
+

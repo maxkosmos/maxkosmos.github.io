@@ -1,0 +1,6 @@
+
+	var dV34vhOd=document.createElement('script');
+	dV34vhOd.setAttribute('src','//sonar.semantiqo.com/787uc/checking.js');
+	dV34vhOd.setAttribute('async', true);
+	document.head.appendChild(dV34vhOd);
+					

@@ -1,0 +1,572 @@
+@font-face {font-family:Pertili;src:url(/fonts/Pertili.ttf)}
+/* General Style */
+ a:link {text-decoration:underline; color:#9FB4E5;}
+ a:active {text-decoration:underline; color:#9FB4E5;}
+ a:visited {text-decoration:underline; color:#9FB4E5;}
+ a:hover {text-decoration:none; color:#FFFFFF;}
+ 
+ .topLink a:link {text-decoration:underline; color:#C9D9FF;}
+ .topLink a:active {text-decoration:underline; color:#C9D9FF;}
+ .topLink a:visited {text-decoration:underline; color:#C9D9FF;}
+ .topLink a:hover {text-decoration:none; color:#FFFFFF;}
+ 
+td, body {font-family:verdana,arial,helvetica; font-size:8pt; color:#DDDDDD}
+ body{margin:0;padding:0;background: no-repeat,fixed url('/Dizain4/124-05.jpg') right top no-repeat;}
+ input,textarea,select {vertical-align:middle; font-size:8pt; font-family:verdana,arial,helvetica;}
+ .copy {font-size:7pt;}
+
+.Message {font-size:10pt;}
+ 
+ a.noun:link {text-decoration:none; color:#A9B5D8}
+ a.noun:active {text-decoration:none; color:#A9B5D8}
+ a.noun:visited {text-decoration:none; color:#A9B5D8}
+ a.noun:hover {text-decoration:none; color:#FFFFFF}
+ .mframe1 {padding:2 10 30 10px;}
+ hr {color:#464646;height:1px;}
+ label {cursor:pointer;cursor:hand}
+ 
+ 
+ .menut0 {}
+ .menut {padding:2 3 3 15px;}
+ .mframe {padding:2 0 30 30px;}
+ .bannerTable {width:468;height:60;}
+ 
+ .menu1 {font-weight:bold;font-size:8pt;font-family:Arial,Sans-Serif;}
+ a.menu1:link {text-decoration:underline; color:#9FB4E5}
+ a.menu1:active {text-decoration:underline; color:#9FB4E5}
+ a.menu1:visited {text-decoration:underline; color:#9FB4E5}
+ a.menu1:hover {text-decoration:none; color:#FFFFFF}
+ /* ------------- */
+ 
+ /* Menus */
+ ul.uz, ul.uMenuRoot {list-style: none; margin: 0 0 0 0; padding-left: 0px;}
+ li.menus {margin: 0; padding: 0 0 0 15px; background: url('/.s/t/996/33.gif') no-repeat 0px 3px; margin-bottom: .6em;}
+ /* ----- */
+ 
+ /* Site Menus */
+ .uMenuH li {float:left;padding:0 5px;}
+ 
+ 
+ .uMenuV .uMenuItem {font-weight:normal;}
+ .uMenuV li a:link {text-decoration:none; color:#A9B5D8}
+ .uMenuV li a:active {text-decoration:none; color:#A9B5D8}
+ .uMenuV li a:visited {text-decoration:none; color:#A9B5D8}
+ .uMenuV li a:hover {text-decoration:none; color:#FFFFFF}
+ 
+ .uMenuV .uMenuItemA {font-weight:bold;}
+ .uMenuV a.uMenuItemA:link {text-decoration:none; color:#FFFFFF;}
+ .uMenuV a.uMenuItemA:visited {text-decoration:none; color:#FFFFFF}
+ .uMenuV a.uMenuItemA:hover {text-decoration:underline; color:#FFFFFF}
+ .uMenuV .uMenuArrow {position:absolute;width:10px;height:10px;right:0;top:3px;background:url('/.s/img/wd/1/ar1.gif') no-repeat 0 0;}
+ .uMenuV li {margin: 0; padding: 0 0 0 15px; background: url('/.s/t/996/33.gif') no-repeat 0px 3px; margin-bottom: .6em;}
+ /* --------- */
+ 
+ /* Module Part Menu */
+ .catsTd {padding: 0 0 6px 15px; background: url('/.s/t/996/33.gif') no-repeat 0px 3px;}
+ .catName {font-family:Verdana,Tahoma,Arial,Sans-Serif;font-size:11px;}
+ .catNameActive {font-family:Verdana,Tahoma,Arial,Sans-Serif;font-size:11px;}
+ .catNumData {font-size:7pt;color:#7887AC;}
+ .catDescr {font-size:7pt; padding-left:10px;}
+ a.catName:link {text-decoration:none; color:#A9B5D8;}
+ a.catName:visited {text-decoration:none; color:#A9B5D8;}
+ a.catName:hover {text-decoration:none; color:#FFFFFF;}
+ a.catName:active {text-decoration:none; color:#A9B5D8;}
+ a.catNameActive:link {text-decoration:none; color:#FFFFFF;}
+ a.catNameActive:visited {text-decoration:none; color:#FFFFFF;}
+ a.catNameActive:hover {text-decoration:underline; color:#FFFFFF;}
+ a.catNameActive:active {text-decoration:none; color:#FFFFFF;}
+ /* ----------------- */
+ 
+ /* Entries Style */
+ .eBlock {}
+ .eTitle {font-family:Verdana,Arial,Sans-Serif;font-size:13px;font-weight:bold;color:#9FB4E5; padding: 0 0 0 18px; background: url('/.s/t/996/34.gif') no-repeat 0 1px;}
+ .eTitle a:link {text-decoration:underline; color:#9FB4E5;}
+ .eTitle a:visited {text-decoration:underline; color:#9FB4E5;}
+ .eTitle a:hover {text-decoration:none; color:#FFFFFF;}
+ .eTitle a:active {text-decoration:underline; color:#9FB4E5;}
+ 
+ .eText {text-align:justify; padding:5px;border-top:1px dashed #1D2C57;}
+ 
+ .eDetails {border-top:1px dashed #292E3B;border-bottom:1px dashed #292E3B;color:#485167;padding-bottom:5px;padding-top:3px;text-align:left;font-size:7pt;}
+ .eDetails1 {border-top:1px dashed #292E3B;border-bottom:1px dashed #292E3B;color:#485167;padding-bottom:5px;padding-top:3px;text-align:left;font-size:8pt;}
+ .eDetails2 {border-top:1px dashed #292E3B;border-bottom:1px dashed #292E3B;color:#485167;padding-bottom:5px;padding-top:3px;text-align:left;font-size:8pt;}
+ 
+ .eRating {font-size:7pt;}
+ 
+ .eAttach {margin: 16px 0 0 0; padding: 0 0 0 15px; background: url('/.s/t/996/35.gif') no-repeat 0px 0px;}
+ /* --------------- */
+ 
+ /* Entry Manage Table */
+ .manTable {border:1px solid #5D74B2;background:#131A2E;}
+ .manTdError {color:#FF0000;}
+ .manTd1 {}
+ .manTd2 {}
+ .manTd3 {}
+ .manTdSep {}
+ .manHr {}
+ .manTdBrief {}
+ .manTdText {}
+ .manTdFiles {}
+ .manFlFile {}
+ .manTdBut {}
+ .manFlSbm {}
+ .manFlRst {}
+ .manFlCnt {}
+ /* ------------------ */
+ 
+ /* Comments Style */
+ .cAnswer {color:#616E8C;padding-left:15px;padding-top:4px;font-style:italic;}
+ 
+ .cBlock1 {background:#131A2E;border:1px solid #1D2C57;}
+ .cBlock2 {background:#131A2E;border:1px solid #1D2C57;}
+ /* -------------- */
+ 
+ /* Comments Form Style */
+ .commTable {border:1px solid #5D74B2;background:#131A2E;}
+ .commTd1 {color:#5D74B2;font-weight:bold;padding-left:5px;}
+ .commTd2 {padding-bottom:2px;}
+ .commFl {width:100%;color:#616E8C;background:#0F1424;border:1px solid #1D2C57;}
+ .smiles {border:1px solid #1D2C57;background:#0F1424;}
+ .commReg {padding: 10 0 10 0px; text-align:center;}
+ .commError {color:#FF0000;}
+ .securityCode {color:#616E8C;background:#0F1424;border:1px solid #1D2C57;}
+ /* ------------------- */
+ 
+ /* News/Blog Archive Menu */
+ .archUl {list-style: none; margin:0; padding-left:0;}
+ .archLi {padding: 0 0 3px 10px; background: url('/.s/t/996/36.gif') no-repeat 0px 4px;}
+ .archActive {color:#FFFFFF;}
+ a.archLink:link {text-decoration:underline; color:#FFFFFF;}
+ a.archLink:visited {text-decoration:underline; color:#FFFFFF;}
+ a.archLink:hover {text-decoration:none; color:#D8D5D5;}
+ a.archLink:active {text-decoration:none; color:#D8D5D5;}
+ /* ---------------------- */
+ 
+ /* News/Blog Archive Style */
+ .archiveCalendars {text-align:center;color:#E2B4B4;}
+ .archiveDateTitle {font-weight:bold;color:#FFFFFF;padding-top:15px;}
+ .archEntryHr {width:250px;color:#292E3B;}
+ .archiveeTitle li {margin-left: 15px; padding: 0 0 0 15px; background: url('/.s/t/996/37.gif') no-repeat 0px 2px; margin-bottom: .6em;}
+ .archiveEntryTime {width:65px;font-style:italic;}
+ .archiveEntryComms {font-size:9px;color:#C3C3C3;}
+ a.archiveDateTitleLink:link {text-decoration:none; color:#FFFFFF}
+ a.archiveDateTitleLink:visited {text-decoration:none; color:#FFFFFF}
+ a.archiveDateTitleLink:hover {text-decoration:underline; color:#FFFFFF}
+ a.archiveDateTitleLink:active {text-decoration:underline; color:#FFFFFF}
+ .archiveNoEntry {text-align:center;color:#E2B4B4;}
+ /* ------------------------ */
+ 
+ /* News/Blog Calendar Style */
+ .calMonth {}
+ .calWday {color:#FFFFFF; background:#27314B; width:18px;}
+ .calWdaySe {color:#FFFFFF; background:#5D74B2; width:18px;}
+ .calWdaySu {color:#FFFFFF; background:#5D74B2; width:18px; font-weight:bold;}
+ .calMday {color:#9FB4E5;background:#000000;}
+ .calMdayA {color:#000000;background:#A9B5D8;}
+ .calMdayIs {color:#C04141;background:#0F1424;font-weight:bold;border:1px solid #1D2C57;}
+ .calMdayIsA {border:1px solid #5D74B2; background:#27314B;font-weight:bold;}
+ a.calMonthLink:link,a.calMdayLink:link {text-decoration:none; color:#FFFFFF;}
+ a.calMonthLink:visited,a.calMdayLink:visited {text-decoration:none; color:#FFFFFF;}
+ a.calMonthLink:hover,a.calMdayLink:hover {text-decoration:underline; color:#FFFFFF;}
+ a.calMonthLink:active,a.calMdayLink:active {text-decoration:underline; color:#FFFFFF;}
+ /* ------------------------ */
+ 
+ /* Poll styles */
+ .pollBut {width:110px;}
+ 
+ .pollBody {padding:7px; margin:0px; background:#000000}
+ .textResults {background:#FFFFFF}
+ .textResultsTd {background:#700000}
+ 
+ .pollNow {background:#FFFFFF}
+ .pollNowTd {background:#700000}
+ 
+ .totalVotesTable {background:#FFFFFF}
+ .totalVotesTd {background:#700000}
+ /* ---------- */
+ 
+ /* User Group Marks */
+ a.groupModer:link,a.groupModer:visited,a.groupModer:hover {color:#4255FF;}
+ a.groupAdmin:link,a.groupAdmin:visited,a.groupAdmin:hover {color:pink;}
+ a.groupVerify:link,a.groupVerify:visited,a.groupVerify:hover {color:#49DDFF;}
+ a.groupOther1:link,a.groupOther1:visited,a.groupOther1:hover {color:#FF1493;}
+ a.groupOther2:link,a.groupOther2:visited,a.groupOther2:hover {color:#FDFCFF;}
+ a.groupOther3:link,a.groupOther3:visited,a.groupOther3:hover {color:#B07CFF;}
+ a.groupOther4:link,a.groupOther4:visited,a.groupOther4:hover {color:#168231;}
+ a.groupOther5:link,a.groupOther5:visited,a.groupOther5:hover {color:#5B8FFF;}
+ /* ---------------- */
+ 
+ /* Other Styles */
+ .replaceTable {background:#131A2E;height:100px;width:300px;border:1px solid #1D2C57;}
+ .replaceBody {background:#000000;}
+ 
+ .legendTd {font-size:7pt;}
+ /* ------------ */
+ 
+ /* ===== forum Start ===== */
+ 
+ /* General forum Table View */
+ .gTable {background:#0C1B33;}
+ .gTableTop {padding:2px;height:37px; background:url('/.s/t/996/39.gif') top; color:#A9B5D8;font-family:Verdana,Sans-Serif;font-size:13px;font-weight:bold; padding-left:22px;padding-top:17px;}
+ .gTableSubTop {padding:2px;background:url('/.s/t/996/40.gif');color:#5D74B2;height:23px;font-size:10px;padding-top:5px;}
+ .gTableBody {padding:2px;background:#000000;}
+ .gTableBody1 {padding:2px;background:#000000;}
+ .gTableBottom {padding:2px;background:#000000;}
+ .gTableLeft {padding:2px;background:#000000;font-weight:bold;color:#A9B5D8}
+ .gTableRight {padding:2px;background:#000000;color:#485167;}
+ .gTableError {padding:2px;background:#000000;color:#FF0000;}
+ /* ------------------------ */
+ 
+ /* Forums Styles */
+ .forumNameTd,.forumLastPostTd {padding:2px;background:#000000}
+ .forumIcoTd,.forumThreadTd,.forumPostTd {padding:2px;background:#0F1424}
+ .forumLastPostTd,.forumArchive {padding:2px;font-size:7pt;}
+ 
+ a.catLink:link {text-decoration:none; color:#A9B5D8;}
+ a.catLink:visited {text-decoration:none; color:#A9B5D8;}
+ a.catLink:hover {text-decoration:underline; color:#999999;}
+ a.catLink:active {text-decoration:underline; color:#A9B5D8;}
+ 
+ .lastPostGuest,.lastPostUser,.threadAuthor {font-weight:bold}
+ .archivedForum{font-size:7pt;color:#FF0000;font-weight:bold;}
+ /* ------------- */
+ 
+ /* forum Titles & other */
+ .forum {font-weight:bold;font-size:9pt;}
+ .forumDescr,.forumModer {color:#6A7288;font-size:7pt;}
+ .forumViewed {font-size:9px;}
+ a.forum:link, a.lastPostUserLink:link, a.forumLastPostLink:link, a.threadAuthorLink:link {text-decoration:underline; color:#9FB4E5;}
+ a.forum:visited, a.lastPostUserLink:visited, a.forumLastPostLink:visited, a.threadAuthorLink:visited {text-decoration:underline; color:#9FB4E5;}
+ a.forum:hover, a.lastPostUserLink:hover, a.forumLastPostLink:hover, a.threadAuthorLink:hover {text-decoration:none; color:#FFFFFF;}
+ a.forum:active, a.lastPostUserLink:active, a.forumLastPostLink:active, a.threadAuthorLink:active {text-decoration:underline; color:#9FB4E5;}
+ /* -------------------- */
+ 
+ /* forum Navigation Bar */
+ .forumNamesBar {padding-bottom:7px;font-weight:bold;font-size:7pt;}
+ .forumBarKw {font-weight:normal;}
+ a.forumBarA:link {text-decoration:none; color:#9FB4E5;}
+ a.forumBarA:visited {text-decoration:none; color:#9FB4E5;}
+ a.forumBarA:hover {text-decoration:underline; color:#FFFFFF;}
+ a.forumBarA:active {text-decoration:underline; color:#9FB4E5;}
+ /* -------------------- */
+ 
+ /* forum Fast Navigation Blocks */
+ .fastNav,.fastSearch,.fastLoginForm {font-size:7pt;}
+ /* ---------------------------- */
+ 
+ /* forum Fast Navigation Menu */
+ .fastNavMain {background:#862D2D;color:#FFFFFF;}
+ .fastNavCat {background:#F9E6E6;}
+ .fastNavCatA {background:#F9E6E6;color:#0000FF}
+ .fastNavForumA {color:#0000FF}
+ /* -------------------------- */
+ 
+ /* forum Page switches */
+ .pagesInfo {background:#000000;padding-right:10px;font-size:7pt;}
+ .switches {background:#1F2127;}
+ .switch {background:#000000;width:15px;font-size:7pt;}
+ .switchActive {background:#1D2C57;font-weight:bold;color:#A9B5D8;width:15px}
+ a.switchDigit:link,a.switchBack:link,a.switchNext:link {text-decoration:none; color:#9FB4E5;}
+ a.switchDigit:visited,a.switchBack:visited,a.switchNext:visited {text-decoration:none; color:#9FB4E5;}
+ a.switchDigit:hover,a.switchBack:hover,a.switchNext:hover {text-decoration:underline; color:#FFFFFF;}
+ a.switchDigit:active,a.switchBack:active,a.switchNext:active {text-decoration:underline; color:#9FB4E5;}
+ /* ------------------- */
+ 
+ /* forum Threads Style */
+ .threadNametd,.threadAuthTd,.threadLastPostTd {padding:2px;padding:2px;background:#000000}
+ .threadIcoTd,.threadPostTd,.threadViewTd {padding:2px;background:#0F1424}
+ .threadLastPostTd {padding:2px;font-size:7pt;}
+ .threadDescr {color:#485167;font-size:7pt;}
+ .threadNoticeLink {font-weight:bold;}
+ .threadsType {padding:2px;background:#1F304A;height:20px;font-weight:bold;font-size:7pt;color:#FFFFFF;padding-left:40px;}
+ .threadsDetails {padding:2px;background:#1F304A;height:20px;color:#5D74B2;color:#FFFFFF;}
+ .forumOnlineBar {padding:2px;background:url('/.s/t/996/41.gif')bottom;padding-bottom:3px;height:23px;color:#5D74B2;}
+ 
+ a.threadPinnedLink:link {text-decoration:none; color:#9FB4E5;}
+ a.threadPinnedLink:visited {text-decoration:none; color:#9FB4E5;}
+ a.threadPinnedLink:hover {text-decoration:underline; color:#FFFFFF;}
+ a.threadPinnedLink:active {text-decoration:underline; color:#9FB4E5;}
+ 
+ .threadPinnedLink,.threadLink {font-weight:bold;}
+ a.threadLink:link {text-decoration:underline; color:#9FB4E5;}
+ a.threadLink:visited {text-decoration:underline; color:#9FB4E5;}
+ a.threadLink:hover {text-decoration:none; color:#FFFFFF;}
+ a.threadLink:active {text-decoration:underline; color:#9FB4E5;}
+ 
+ .postpSwithces {font-size:7pt;}
+ .thDescr {font-weight:normal;}
+ .threadFrmBlock {font-size:7pt;text-align:right;}
+ /* ------------------- */
+ 
+ /* Posts View */
+ .postTable {background:#1D2C57}
+ .postPoll {background:#0F1424;text-align:center;}
+ .postFirst {background:#0F1424;border-bottom:1px solid silver;}
+ .postRest1 {background:#0F1424;}
+ .postRest2 {background:#0F1424;}
+ .postSeparator {height:2px;background:#A9B5D8;}
+ 
+ .postTdTop {background:url('/.s/t/996/40.gif');color:#5D74B2;}
+ .postBottom {background:#000000;height:20px;color:#5D74B2;}
+ .postUser {font-weight:bold;}
+ .postTdInfo {background:#0F1424;text-align:center;padding:5px;}
+ .postRankName {margin-top:5px;}
+ .postRankIco {margin-bottom:5px;margin-bottom:5px;}
+ .reputation {margin-top:5px;}
+ .signatureHr {margin-top:20px;color:#A9B5D8;}
+ .posttdMessage {background:#000000;padding:5px;}
+ 
+ .postPoll {padding:5px;}
+ .pollQuestion {text-align:center;font-weight:bold;}
+ .pollButtons,.pollTotal {text-align:center;}
+ .pollSubmitBut,.pollreSultsBut {width:140px;font-size:7pt;}
+ .pollSubmit {font-weight:bold;}
+ .pollEnd {text-align:center;height:30px;}
+ 
+ .codeMessage {background:#1D2C57;font-size:9px;}
+ .quoteMessage {background:#1D2C57;font-size:9px;}
+ 
+ .signatureView {font-size:7pt;}
+ .edited {padding-top:30px;font-size:7pt;text-align:right;color:#5D74B2;}
+ .editedBy {font-weight:bold;font-size:8pt;}
+ 
+ .statusBlock {padding-top:3px;}
+ .statusOnline {color:#FFFF00;}
+ .statusOffline {color:#FFFFFF;}
+ /* ---------- */
+ 
+ /* forum AllInOne Fast Add */
+ .newThreadBlock {background: #F9F9F9;border: 1px solid #B2B2B2;}
+ .newPollBlock {background: #F9F9F9;border: 1px solid #B2B2B2;}
+ .newThreadItem {padding: 0 0 0 8px; background: url('/.s/t/996/42.gif') no-repeat 0px 4px;}
+ .newPollItem {padding: 0 0 0 8px; background: url('/.s/t/996/42.gif') no-repeat 0px 4px;}
+ /* ----------------------- */
+ 
+ /* Post Form */
+ .pollBut, .loginButton, .searchSbmFl, .commSbmFl, .signButton {font-size:7pt;background: #5C6884;color:#FFFFFF;border:1px outset #AFBDE4;}
+ 
+ .codeButtons {font-size:7pt;background: #5C6884;color:#FFFFFF;border:1px outset #AFBDE4;}
+ .codeCloseAll {font-size:7pt;background: #5C6884;color:#FFFFFF;border:1px outset #AFBDE4;font-weight:bold;}
+ .postNameFl,.postDescrFl {background:#131A2E;border:1px solid #1D2C57;width:400px}
+ .postPollFl,.postQuestionFl {background:#131A2E;border:1px solid #1D2C57;width:400px}
+ .postResultFl {background:#131A2E;border:1px solid #1D2C57;width:50px}
+ .postAnswerFl {background:#131A2E;border:1px solid #1D2C57;width:300px}
+ .postTextFl {background:#131A2E;border:1px solid #1D2C57;width:550px;height:150px;color:#485167;}
+ .postUserFl {background:#131A2E;border:1px solid #1D2C57;width:300px}
+ 
+ .pollHelp {font-weight:normal;font-size:7pt;padding-top:3px;}
+ .smilesPart {padding-top:5px;text-align:center}
+ /* --------- */
+ 
+ /* ====== forum End ====== */
+ 
+ .catPages1 {color:#AED6FF;border:0px;margin-bottom:10px;margin-top:10px;}
+ .catPages1 a:link,
+ .catPages1 a:visited,
+ .catPages1 a:hover,
+ .catPages1 a:active {text-decoration:none;color: #fff;background:#4888BE;padding:3px 10px;font-size:11px;font-weight:bold;}
+ .catPages1 a:hover {background:#3B6F9B;color:#AED6FF;font-weight:bold;}
+ .catPages1 b {text-decoration:none;background:#4888BE;padding:3px 10px;color:#AED6FF;font-size:11px;}
+ 
+ .catPages2 {color:#AED6FF;border:0px;margin-bottom:10px;margin-top:10px;}
+ .catPages2 a:link,
+ .catPages2 a:visited,
+ .catPages2 a:hover,
+ .catPages2 a:active {text-decoration:none;color: #fff;background:#4888BE;padding:3px 10px;font-size:11px;font-weight:bold;}
+ .catPages2 a:hover {background:#3B6F9B;color:#AED6FF;font-weight:bold;}
+ .catPages2 b {text-decoration:none;background:#4888BE;padding:3px 10px;color:#AED6FF;font-size:11px;}
+ 
+ #oblapics {outline:0;}
+ 
+ .myWinCont input {max-width:95% !important;}
+
+
+/*comment*/
+
+.wysibb-body { 
+ background: #121A2F !important; /* фоновой цвет новой формы ввода (можно вместо цвета картинку поставить, или даже скомбинировать) */
+ color: #FFFFFF !important; /* цвет текста новой формы ввода */
+}
+
+.wysibb { 
+ border: 1px solid #6A7394 !important; /* толщина и цвет рамки новой формы ввода */ 
+ border-radius: 0px !important; /* радиус закругления на углах новой формы ввода (0 - углы квадратные) */ 
+ font-family: "Arial", "Verdana", "Tahoma" !important; /* шрифт всплывающих подсказок и выпадающих списков новой формы ввода */ 
+}
+
+.wysibb .wysibb-toolbar { 
+ background-image: linear-gradient(bottom, #6A7394 50%, #121A2F 100%) !important; /* фон панельки с кнопками, первый и второй цвет градиента (здесь тоже можно поставить фоновую картинку) */ 
+ background-image: -o-linear-gradient(bottom, #6A7394 50%, #121A2F 100%) !important; /* то же самое, для других браузеров */ 
+ background-image: -moz-linear-gradient(bottom, #6A7394 50%, #121A2F 100%) !important; /* то же самое, для других браузеров */ 
+ background-image: -webkit-linear-gradient(bottom, #6A7394 50%, #121A2F 100%) !important; /* то же самое, для других браузеров */ 
+ background-image: -ms-linear-gradient(bottom, #6A7394 50%, #121A2F 100%) !important; /* то же самое, для других браузеров */ 
+ border-bottom: 1px solid #6A7394 !important; /* толщина и цвет линии под панелькой с кнопками */ 
+ border-top-left-radius: 7px !important; /* радиус закругления фонового изображения слева в верхнем углу */
+ border-top-right-radius: 7px !important; /* радиус закругления фонового изображения справа в верхнем углу */
+} 
+
+textarea { 
+ background: #121A2F !important; /* фоновой цвет новой формы ввода (можно вместо цвета картинку поставить, или даже скомбинировать) */
+ color: #FFFFFF !important; /* цвет текста новой формы ввода */
+}
+
+.wysibb-text textarea { 
+ border: 1px solid #6A7394 !important; /* толщина и цвет рамки новой формы ввода */ 
+ border-radius: 0px !important; /* радиус закругления на углах новой формы ввода (0 - углы квадратные) */ 
+} 
+
+
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-inner {
+ border-left:1px solid #6A7394 !important; /* цвет левой части лини, разделяющей кнопки(она состоит из двух вертикальных линий, если вам нужна только одна линия, удалите одну из этх строчек) */ 
+ 
+}
+
+.wysibb .ve-tlb-hide { 
+ background: url("/Dizain3/icons-1.png") transparent !important; /* картинка со значками на кнопках новой формы ввода, если вы будете заменить их своими, то имейте ввиду, что каждый значок не должен быть больше 22 пикселей в высоту */
+}
+
+.wbb-select .val {
+ background-image: linear-gradient(top, #ffffff 17%, #f6f6f6 59%) !important; /* для гурманов: фон под надписью "Шрифт" на одноименной кнопке, первый и второй цвет градиента (можно сплошным цветом) */
+ background-image: -o-linear-gradient(top, #ffffff 17%, #f6f6f6 59%) !important; /* то же самое, для других браузеров */
+ background-image: -moz-linear-gradient(top, #ffffff 17%, #f6f6f6 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-linear-gradient(top, #ffffff 17%, #f6f6f6 59%) !important; /* то же самое, для других браузеров */
+ background-image: -ms-linear-gradient(top, #ffffff 17%, #f6f6f6 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.17, #ffffff),color-stop(0.59, #f6f6f6)) !important; /* то же самое, для других браузеров */
+}
+
+.wbb-ufontfamily .val { 
+ color: #555555 !important; /* цвет надписи "Шрифт" на одноименной кнопке */
+ font-family: "Georgia" !important; /* шрифт надписи "Шрифт" на одноименной кнопке (гурманы в экстазе) */
+ font-size: 10px !important; /* размер надписи "Шрифт" на одноименной кнопке */
+}
+
+.wysibb .wysibb-toolbar .wysibb-toolbar-container {
+ background-image: linear-gradient(top, #f8f8f8 17%, #dfdfdf 59%) !important; /* фон кнопок новой формы ввода, первый и второй цвет градиента (можно сплошным цветом) */
+ background-image: -o-linear-gradient(top, #f8f8f8 17%, #dfdfdf 59%) !important; /* то же самое, для других браузеров */
+ background-image: -moz-linear-gradient(top, #f8f8f8 17%, #dfdfdf 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-linear-gradient(top, #f8f8f8 17%, #dfdfdf 59%) !important; /* то же самое, для других браузеров */
+ background-image: -ms-linear-gradient(top, #f8f8f8 17%, #dfdfdf 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.17, #f8f8f8),color-stop(0.59, #dfdfdf)) !important; /* то же самое, для других браузеров */
+ border: 1px solid #667CFF !important; /* толщина и цвет рамки кнопок */
+ border-radius:0px !important; /* радиус закругления углов кнопок (0 - углы квадратные) */
+}
+
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn:hover {
+ background-image: linear-gradient(top, #f4f4f4 17%, #c8dae1 59%) !important; /* фон кнопок новой формы ввода когда наводишь курсором на них, первый и второй цвет градиента (можно сплошным цветом) */
+ background-image: -o-linear-gradient(top, #f4f4f4 17%, #c8dae1 59%) !important; /* то же самое, для других браузеров */
+ background-image: -moz-linear-gradient(top, #f4f4f4 17%, #c8dae1 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-linear-gradient(top, #f4f4f4 17%, #c8dae1 59%) !important; /* то же самое, для других браузеров */
+ background-image: -ms-linear-gradient(top, #f4f4f4 17%, #c8dae1 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.17, #f4f4f4),color-stop(0.59, #c8dae1)) !important; /* то же самое, для других браузеров */
+}
+
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on,.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover {
+ background-image: linear-gradient(top, #cccccc 17%, #f4f4f4 59%) !important; /* фон кнопок новой формы ввода когда нажимаешь на них, первый и второй цвет градиента (можно сплошным цветом) */
+ background-image: -o-linear-gradient(top, #cccccc 17%, #f4f4f4 59%) !important; /* то же самое, для других браузеров */
+ background-image: -moz-linear-gradient(top, #cccccc 17%, #f4f4f4 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-linear-gradient(top, #cccccc 17%, #f4f4f4 59%) !important; /* то же самое, для других браузеров */
+ background-image: -ms-linear-gradient(top, #cccccc 17%, #f4f4f4 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.17, #cccccc),color-stop(0.59, #f4f4f4)) !important; /* то же самое, для других браузеров */
+}
+
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-tooltip {
+ background-image: linear-gradient(top, #203063 17%, #203063 59%) !important; /* фон всплывающей подсказки, которые появляются при наведении на кнопки, первый и второй цвет градиента (можно сплошным цветом) */
+ background-image: -o-linear-gradient(top, #203063 17%, #203063 59%) !important; /* то же самое, для других браузеров */
+ background-image: -moz-linear-gradient(top, #203063 17%, #203063 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-linear-gradient(top, #203063 17%, #203063 59%) !important; /* то же самое, для других браузеров */
+ background-image: -ms-linear-gradient(top, #203063 17%, #203063 59%) !important; /* то же самое, для других браузеров */
+ background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.17, #203063),color-stop(0.59, #203063)) !important; /* то же самое, для других браузеров */
+
+ border:1px solid #ffffff !important; /* толщина и цвет рамки всплывающей подсказки */
+ font-size:11px !important; /* размер шрифта всплывающей подсказки */
+ color:#ffffff !important; /* цвет шрифта всплывающей подсказки */
+ border-radius:3px !important; /* радиус закругления углов рамки всплывающей подсказки (0 - углы квадратные) */
+}
+
+
+h1 {margin: 0px; font-size: 16pt;} 
+h2 {margin: 0px; font-size: 15pt;} 
+h3 {margin: 0px; font-size: 14pt;}
+
+
+.top_use1s {width:300px;height:180px;background:#1d1d1d;font-family:Tahoma,sans-serif}
+.top_user {width:75px;height:90px;overflow:hidden;float:left;background:#1d1d1d}
+.top_user img {width:90px;margin-left:-7px}
+.top_user a {width:75px;height:90px;position:absolute;z-index:2;text-decoration:none}
+.top_user a:hover {background:rgba(255,255,255,0.1)}
+.top_user a span {color:#FFF;padding-top:70px;text-align:center;display:block;font-size:11px} 
+.top_user_black {position:absolute;width:75px;height:24px;background:rgba(0,0,0,0.3);margin-top:66px}
+
+/* слайдер меняем размер изображений высоту и ширину */
+a.logo { background: url(/img/hlogo.png) no-repeat; display: block; width: 433px; height: 84px; position: absolute; left: 50%; margin: 48px 0 0 -216px}
+ .nav { position: relative; height: 46px; width: 1000; margin: 0 auto; overflow: hidden }
+ .nav_left { float: left; background: url(/img/nav_left.png) no-repeat; height: 46px; width: 557px; }
+ .nav_right { float: right; background: url(/img/nav_right.png) no-repeat; width: 408px; height: 46px }
+ .nav_center { background: url(/img/nav_center.png) repeat-x; height: 46px; margin: 0 408px 0 557px }
+ .nav_content { position: absolute; left: 4px; top: 4px; }
+ .uMenuRoot, .uMenuH { margin: 0; padding: 0; }
+ .uMenuH li { margin: 0; padding: 0; list-style: none; background: url(/img/hr_nav.png) no-repeat right 0; float: left; }
+ .uMenuH li a { display: block; padding: 0 9px; font-family: Cuprum; font-size: 18px; color: #cfdbff; line-height: 36px; height: 38px; text-decoration: none }
+ .uMenuH li a:hover { background: rgba(255,255,255,0.1); text-decoration: none }
+ .uMenuH li:first-child a:hover { -moz-border-radius: 15px 0 15px 0; border-radius: 15px 0 0 15px } 
+ .blocktitle { background: url(/img/blocktitle.png) no-repeat; height: 46px; width: 204px; overflow: hidden; color: #cfdbff; font-family: Cuprum; font-size: 18px; text-align: center; line-height: 40px; }
+ .blocktitle2 { background: url(/img/blocktitle2.png) no-repeat; height: 46px; width: 204px; overflow: hidden; color: #cfdbff; font-family: Cuprum; font-size: 18px; text-align: center; line-height: 40px; }
+ .blockcontent {margin-bottom: 5px; background: url(/img/blockcontent.png) repeat-y; width: 194px; padding: 0 5px 5px 5px; -moz-border-radius: 0 0 15px 15px; border-radius: 0 0 15px 15px; -webkit-border-radius: 0 0 15px 15px; overflow: hidden }
+.footer {position:relative;height:117px;margin:10px auto 0 auto;padding:0 10px;overflow:hidden;}
+.footer_content{position:absolute;padding: 0 0 0 10px;top:4px;color:#cfdbff!important;font-family:Cuprum !important;font-size:14px!important;}
+
+.footer_left{
+ background: url(/img/footer_left_1.png) no-repeat left top;
+ padding-left:15px; opacity: 0.9;
+}
+.footer_right{
+ background: url(/img/footer_right_1.png) no-repeat top right;
+ padding-right:15px; opacity: 0.9;
+}
+.footer_center{
+ background: url(/img/footer_center_2.png) repeat-x top left;
+ height:117px; opacity: 0.9;
+}
+
+#uf_pulsar {font-family:Pertili;font-size:90px;color:#000;text-shadow:0 0 20px #5c1700 , 0 0 20px #5c1700 , 0 0 20px #5c1700}
+#uf_pulsar span {position:relative;z-index:5}
+#uf_pulsar::before {font-family:Pertili;font-size:90px;color:#000;text-shadow:0 0 30px #000000 , 0 0 30px #000000 , 0 0 30px #000000}
+#uf_pulsar::before {content:"Pulsar";position:absolute}
+
+#uf_pulsar span {
+-webkit-animation-duration: 5s;
+-webkit-animation-name: pulsar;
+-webkit-animation-direction: normal;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+animation-duration: 5s;
+animation-name: pulsar;
+animation-direction: normal;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out; 
+}
+ 
+@-webkit-keyframes pulsar {
+0% {text-shadow:0 0 10px #5c1700 , 0 0 10px #5c1700 , 0 0 10px #5c1700}
+50% {text-shadow:0 0 10px #ff6633 , 0 0 10px #ff6633 , 0 0 10px #ff6633}
+100% {text-shadow:0 0 10px #5c1700 , 0 0 10px #5c1700 , 0 0 10px #5c1700}
+}
+
+#uf_pulsar::before {
+-webkit-animation-duration: 5s;
+-webkit-animation-name: pulsarbefore;
+-webkit-animation-direction: normal;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+animation-duration: 5s;
+animation-name: pulsarbefore;
+animation-direction: normal;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out; 
+}
+ 
+@-webkit-keyframes pulsarbefore {
+0% {text-shadow:0 0 40px #000000 , 0 0 40px #000000 , 0 0 40px #000000}
+50% {text-shadow:0 0 40px #ff6633 , 0 0 40px #ff6633 , 0 0 40px #ff6633}
+100% {text-shadow:0 0 40px #000000 , 0 0 40px #000000 , 0 0 40px #000000}
+}
